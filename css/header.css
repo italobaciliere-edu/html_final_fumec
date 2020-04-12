@@ -1,23 +1,28 @@
 :root {
     /* Color Theme */
     /* use -> var(--color-theme-zone-art-hex-blue:)*/
-    --color-theme-zone-art-hex-white-01: #D9D9D9;
-    --color-theme-zone-art-hex-white-02: #E2E5E5;
-    --color-theme-zone-art-hex-gray: #6A6F73;
-    --color-theme-zone-art-hex-black: #0B1C26;
-    --color-theme-zone-art-hex-blue: #729CA6;
+    --color-theme-zone-art-hex-dark-salmon: #FF8066;
+    --color-theme-zone-art-hex-light-salmon: #FFF6E6;
+    --color-theme-zone-art-hex-black: #3F464D;
+    --color-theme-zone-art-hex-dark-blue: #2186C4;
+    --color-theme-zone-art-hex-light-blue: #7ECEFC;
     /* Color Theme hex*/
     /* use -> var(--color-theme-zone-art-rgb-blue:)*/
-    --color-theme-zone-art-rgb-white-01: rgba(227, 227, 227, 1);
-    --color-theme-zone-art-rgb-white-02: rgba(216, 219, 219, 1);
-    --color-theme-zone-art-rgb-gray: rgba(106, 111, 115, 1);
-    --color-theme-zone-art-rgb-black: rgba(11, 28, 38, 1);
-    --color-theme-zone-art-rgb-blue: rgba(114, 156, 166, 1);
+    --color-theme-zone-art-rgb-light-salmon: rgba(255, 246, 229, 1);
+    --color-theme-zone-art-rgb-dark-salmon: rgba(255, 127, 102, 1);
+    --color-theme-zone-art-rgb-black: rgba(62, 69, 76, 1);
+    --color-theme-zone-art-rgb-dark-blue: rgba(33, 133, 196, 1);
+    --color-theme-zone-art-rgb-light-blue: rgba(126, 206, 252, 1);
 }
+
+
+/* 
+font-family: 'Poiret One', cursive;
+*/
 
 .header_index {
     background-color: var(--color-theme-zone-art-hex-black);
-    padding: 50px;
+    padding: 40px 0px 50px 114px;
     position: static;
 }
 
@@ -26,25 +31,30 @@
     display: inline-block;
 }
 
-.logo_winter_net {
-    width: 200px;
-    height: 113px;
-}
+.logo_winter_net {}
 
 .nav_menu_header {
     display: inline-block;
     position: relative;
     top: 30px;
-    left: 150px;
+    left: 200px;
 }
 
 .nav_menu_header ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .nav_menu_header ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--color-theme-zone-art-hex-white-02)
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: large;
+    color: var(--color-theme-zone-art-hex-dark-salmon)
+}
+
+.nav_menu_header ul li a:hover {
+    color: var(--color-theme-zone-art-hex-light-salmon);
+    /*order-bottom: 1px solid var(--color-theme-zone-art-hex-light-salmon);*/
 }

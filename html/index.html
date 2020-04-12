@@ -10,6 +10,10 @@
     <!-- Font main -->
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/plans.css">
+    <link rel="stylesheet" type="text/css" href="/css/clients.css">
+    <link rel="stylesheet" type="text/css" href="/css/form.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
     <title>Winter Net</title>
 </head>
 
@@ -17,7 +21,7 @@
 
     <header class="header_index">
         <div class="box_logo">
-            <a href="#"><img src="/resources/imagens/Logo_empresa.png" class="logo_winter_net"></a>
+            <a href="#"><img src="/resources/imagens/salmao.png" class="logo_winter_net" alt="Imagem de uma salmão de cor azul com as barbatanas arossadas, esse salmão representa a logo da empresa"></a>
         </div>
 
         <nav class="nav_menu_header">
@@ -25,8 +29,8 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#planos">Planos</a></li>
                 <li><a href="#informacoes">Informações</a></li>
-                <li><a href="#">Clientes</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#clients">Clientes</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -75,6 +79,166 @@
                 para download do contrato em pdf. -->
         </div>
     </main>
+
+    <section id="section_plans" class="section-plans">
+
+        <div class="card-plans">
+
+            <header class="header-plans">
+                <!-- <div class="div-title-plans"> -->
+                <h1>plano nevasca</h1>
+                <!-- </div> -->
+                <img src="/resources/imagens/floco-de-neve-32px.png">
+            </header>
+
+            <div class="mega-plans">
+                <p>100 Megas</p>
+            </div>
+
+            <div class="desc-plans">
+                <p>Download de 100 MB</p>
+                <p>Upload de 50 MB</p>
+                <p>Fibra óptica</p>
+                <p>Wifi grátis</p>
+            </div>
+
+            <footer class="bottom-plans">
+                <a value="assine já">Assine já</a>
+            </footer>
+
+        </div>
+
+        <div class="card-plans">
+
+            <header class="header-plans">
+                <h1>plano geada</h1>
+                <img src="/resources/imagens/vento-32px.png">
+            </header>
+
+            <div class="mega-plans">
+                <p>200 Megas</p>
+            </div>
+
+            <div class="desc-plans">
+                <p>Download de 200 MB</p>
+                <p>Upload de 100 MB</p>
+                <p>Fibra óptica</p>
+                <p>Wifi grátis</p>
+            </div>
+
+            <footer class="bottom-plans">
+                <a value="assine já">Assine já</a>
+            </footer>
+
+        </div>
+
+        <div class="card-plans">
+
+            <header class="header-plans">
+                <h1>plano tempestade</h1>
+                <img src="/resources/imagens/queda-de-neve-32px.png">
+            </header>
+
+            <div class="mega-plans">
+                <p>300 Megas</p>
+            </div>
+
+            <div class="desc-plans">
+                <p>Download de 300 MB</p>
+                <p>Upload de 150 MB</p>
+                <p>Fibra óptica</p>
+                <p>Wifi grátis</p>
+            </div>
+
+            <footer class="bottom-plans">
+                <a value="assine já">Assine já</a>
+            </footer>
+
+        </div>
+
+    </section>
+
+    <section id="clients" class="section-clients">
+        <div id="title_clients" class="title-clients">
+            <h2>clientes</h2>
+        </div>
+        <div id="dispo_clients" class="dispo-clients">
+            <a href="https://www.oi.com.br/" target="_blank">
+                <img id="oi" src="/resources/imagens/oi-logo-roxo.png">
+            </a>
+            <a href="https://www.tim.com.br/" target="_blank">
+                <img id="tim" src="/resources/imagens/tim-logo-200-63.png" href="https://www.w3schools.com">
+            </a>
+            <a href="https://www.vivo.com.br" target="_blank">
+                <img id="vivo" src="/resources/imagens/vivo.jpg">
+            </a>
+            <a href="https://www.claro.com.br/" target="_blank">
+                <img id="claro" src="/resources/imagens/claro-logo-100x100.png">
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section-form ">
+
+        <div class="div-form-contato">
+            <h2>entre em contato conosco</h2>
+            <form class="form-contato">
+                <fieldset>
+                    <!--<legend>Área com dados de contado</legend>-->
+                    <div class="fields">
+                        <!--Nome Completo-->
+                        <label for="nome_completo">Nome Completo</label>
+                        <input id="nome_completo" type="text" maxlength="40" required>
+                        <!--Email-->
+                        <label for="email">Email</label>
+                        <input id="email" type="email" maxlength="40" required>
+                        <!--Telefone-->
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="text" maxlength="40">
+                        <!--Mensagem-->
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem"></textarea>
+                    </div>
+                    <div class="buttom">
+                        <!-- Buttom -->
+                        <input type="reset" href="" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </section>
+
+    <footer id="footer " class="footer">
+
+        <section class="section-developer-data">
+
+            <img src="/resources/imagens/developer-picture.jpg" class="developer-picture">
+
+            <div class="div-developer-data">
+
+                <p>Ítalo Baciliere</p>
+                <p>RA 226856106</p>
+                <p>italoluciano57@gmail.com</p>
+                <!--<img src="/resources/imagens/developer-picture.jpg">-->
+
+            </div>
+
+            <div class="div-developer-media">
+
+                <a><img src="/resources/imagens/logo-whatsapp.png"></a>
+                <a><img src="/resources/imagens/logo-instagram.png"></a>
+                <a><img src="/resources/imagens/logo-twitter.png"></a>
+                <a><img src="/resources/imagens/logo-linkedin.png"></a>
+
+            </div>
+
+        </section>
+
+        <h1>&copy; 2020 Ítalo Baciliere</h1>
+    </footer>
+
 </body>
 
 </html>
