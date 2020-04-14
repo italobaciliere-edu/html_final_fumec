@@ -3,7 +3,7 @@
     /* use -> var(--color-theme-zone-art-hex-blue:)*/
     --color-theme-zone-art-hex-dark-salmon: #FF8066;
     --color-theme-zone-art-hex-light-salmon: #FFF6E6;
-    --color-theme-zone-art-hex-black: #;
+    --color-theme-zone-art-hex-black: #3F464D;
     --color-theme-zone-art-hex-dark-blue: #2186C4;
     --color-theme-zone-art-hex-light-blue: #7ECEFC;
     /* Color Theme hex*/
@@ -15,48 +15,140 @@
     --color-theme-zone-art-rgb-light-blue: rgba(126, 206, 252, 1);
 }
 
-.main_index {
-    width: 60%;
-    margin: 100px auto 30px;
+
+/*--------------------------------
+| Seção Main
+----------------------------------
+*/
+
+.main-index {
+    margin: 40px auto;
+    padding: 40px 0px
 }
 
-.box_sobre {
-    font-family: 'Poiret One', cursive;
-    width: 80%;
+.main-index .about-containner {
+    width: 45%;
+    height: 690px;
     margin: auto;
 }
 
-.div_main_conteudo {
-    /*position: static;*/
-    height: 140px;
-    /*padding-top: 22px;*/
+
+/*
+----------------------------------
+*/
+
+
+/*--------------------------------
+| Caixas
+----------------------------------
+*/
+
+.main-index .about-box {
+    height: auto;
+    width: 50%;
+    margin: 20px 0px;
 }
 
-.text_long {
-    position: static;
+.left {
+    /* Alinhar a esquerda */
+    clear: right;
+    float: left;
 }
 
-.main_index .box_sobre .div_main_conteudo h1 {
-    text-transform: uppercase;
-    font-weight: bold;
+.right {
+    /* Alinhar a direita */
+    clear: left;
+    float: right;
+}
+
+
+/*
+----------------------------------
+*/
+
+
+/*--------------
+|   Box Head
+----------------
+*/
+
+.main-index .about-box .row-1 {
     margin: 15px 0px;
-    position: relative;
+}
+
+
+/* Box Title */
+
+.main-index .about-box .row-1 .col-1 {
+    display: inline-block;
+    width: 50%;
+    /*vertical-align: top;*/
+    background-color: aquamarine;
+}
+
+.main-index .about-box .row-1 .col-1 h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    /*line-height: 40px;*/
+}
+
+
+/* Box Title Imagem */
+
+.main-index .about-box .row-1 .col-2 {
+    width: 61px;
+    height: 61px;
+    background-color: coral;
+}
+
+.main-index .about-box .row-1 .col-2 img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+
+/*
+.main-sobre-title {
+    height: 100px;
+}
+
+.main-sobre-title h1 {
+    display: inline-block;
+    line-height: 40px;
+    width: 50%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px 0px;
     vertical-align: top;
     padding-bottom: 2px;
-    border-bottom: 1px solid black;
-    /*Declaração de bordar em apenas uma linha*/
 }
 
-.main_index .box_sobre .div_main_conteudo p {
-    display: inline-block;
+
+/*
+|--------------
+*/
+
+
+/*--------------
+|   Text
+----------------
+*/
+
+.main_index .about-box .row-2-col-1 {
+    height: auto;
+    padding: 5px 0px 5px 5px;
+}
+
+.main_index .about-box .row-2-col-1 p {
     width: 80%;
     vertical-align: top;
+    letter-spacing: 20px;
 }
 
-.text_long {
-    letter-spacing: 2px;
-}
 
-.shadow {
-    box-shadow: 0 20px 30px -16px rgba(9, 9, 16, .2);
-}
+/*
+|--------------
+*/
