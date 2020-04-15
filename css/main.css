@@ -28,7 +28,7 @@
 
 .main-index .about-containner {
     width: 45%;
-    height: 690px;
+    height: auto;
     margin: auto;
 }
 
@@ -46,19 +46,21 @@
 .main-index .about-box {
     height: auto;
     width: 50%;
-    margin: 20px 0px;
+    display: block;
 }
 
 .left {
     /* Alinhar a esquerda */
-    clear: right;
-    float: left;
+    /*clear: right;
+    float: left;*/
+    margin: 20px 50% 20px 0px;
 }
 
 .right {
     /* Alinhar a direita */
-    clear: left;
-    float: right;
+    /*clear: left;
+    float: right;*/
+    margin: 20px 0px 20px 50%;
 }
 
 
@@ -74,56 +76,58 @@
 
 .main-index .about-box .row-1 {
     margin: 15px 0px;
+    height: auto;
+    display: block;
 }
 
 
 /* Box Title */
 
 .main-index .about-box .row-1 .col-1 {
-    display: inline-block;
-    width: 50%;
+    width: 40%;
+    height: 61px;
+    float: left;
+    margin: 0px 0px 5px 0px;
     /*vertical-align: top;*/
-    background-color: aquamarine;
 }
 
 .main-index .about-box .row-1 .col-1 h1 {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 25px;
-    /*line-height: 40px;*/
+    line-height: 1.3em;
+}
+
+.main-text {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.3em;
+    display: inline-block;
+    width: 170px;
 }
 
 
 /* Box Title Imagem */
 
-.main-index .about-box .row-1 .col-2 {
-    width: 61px;
-    height: 61px;
-    background-color: coral;
-}
 
-.main-index .about-box .row-1 .col-2 img {
+/*.main-index .about-box .row-1 .col-2 {
+    width: 60%;
+    height: 61px;
+    float: right;
+    margin: 0px 0px 5px 0px;
+}*/
+
+
+/*.main-index .about-box .row-1 .col-2 img {
     width: 60px;
     height: 60px;
-    margin: auto;
-}
+}*/
 
-
-/*
-.main-sobre-title {
-    height: 100px;
-}
-
-.main-sobre-title h1 {
-    display: inline-block;
-    line-height: 40px;
-    width: 50%;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 25px;
-    margin: 15px 0px;
-    vertical-align: top;
-    padding-bottom: 2px;
+.main-index .about-box .row-1 img {
+    width: 60px;
+    height: 60px;
+    padding: 3px 3px 0px 5px;
 }
 
 
@@ -137,15 +141,20 @@
 ----------------
 */
 
-.main_index .about-box .row-2-col-1 {
+.about-box .row-2-col-1 {
+    clear: left;
+    clear: none;
     height: auto;
-    padding: 5px 0px 5px 5px;
+    padding: 5px 0px 5px 10px
 }
 
-.main_index .about-box .row-2-col-1 p {
+.about-box .row-2-col-1 p {
+    font-family: 'Nunito', sans-serif;
     width: 80%;
     vertical-align: top;
-    letter-spacing: 20px;
+    letter-spacing: .1em;
+    font-weight: lighter;
+    font-size: large;
 }
 
 
