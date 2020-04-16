@@ -27,7 +27,7 @@
 }
 
 .main-index .about-containner {
-    width: 45%;
+    width: 52%;
     height: auto;
     margin: auto;
 }
@@ -91,24 +91,24 @@
     /*vertical-align: top;*/
 }
 
-.main-index .about-box .row-1 .col-1 h1 {
+.main-index .about-box .row-1 h1 {
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 1.3em;
-}
-
-.main-text {
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 1.3em;
+    font-size: 30px;
+    line-height: 1.6em;
+    letter-spacing: .1em;
     display: inline-block;
-    width: 170px;
+    width: 230px;
 }
 
 
 /* Box Title Imagem */
+
+.main-index .about-box .row-1 img {
+    width: 80px;
+    height: 80px;
+    padding: 3px 3px 0px 5px;
+}
 
 
 /*.main-index .about-box .row-1 .col-2 {
@@ -123,12 +123,6 @@
     width: 60px;
     height: 60px;
 }*/
-
-.main-index .about-box .row-1 img {
-    width: 60px;
-    height: 60px;
-    padding: 3px 3px 0px 5px;
-}
 
 
 /*
@@ -150,11 +144,13 @@
 
 .about-box .row-2-col-1 p {
     font-family: 'Nunito', sans-serif;
-    width: 80%;
+    width: 98%;
     vertical-align: top;
     letter-spacing: .1em;
     font-weight: lighter;
-    font-size: large;
+    font-size: 20px;
+    text-indent: 1.5em;
+    line-height: 1.2em;
 }
 
 

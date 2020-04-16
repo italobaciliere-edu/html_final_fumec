@@ -27,9 +27,9 @@ font-family: 'Poiret One', cursive;
 .section-clients {
     /*background-color: var(--color-theme-zone-art-hex-light-blue);*/
     height: auto;
-    padding: 80px;
+    padding: 40px;
     width: 54%;
-    margin: 120px auto;
+    margin: 80px auto;
 }
 
 .title-clients h2 {
